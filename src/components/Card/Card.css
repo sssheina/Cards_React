@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 720px;
+    width: 100%;
+    margin: 100px auto;
+    }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 264px;
+    height: 275px;
+    box-shadow: 0px 8px 15px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+}
+.main__card {
+        background-color: var(--color-green);
+}
+
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 216px;
+    width: 100%;
+    gap: 4px;
+}
+.main__title-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 216px;
+    width: 100%;
+    height: 55px;
+}
+
+.main__star-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+}
+
+.main__title {
+    color: var(--color-white);
+}
+
+.main__title_gray {
+    color: var(--color-gray);
+}
+
+.requirements {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.main__requirements-list {
+    color: var(--color-white);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 216px;
+    height: 155px;
+    align-items: flex-end;
+}
+
+.main__requirements-list_gray {
+    color: var(--color-gray);
+    min-height: 115px;
+}
+
+.text {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.check {
+    width: 18px;
+}
+
+.circle {
+    width: 13px;
+}
+
+.main__requirements-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.main__turnover {
+    color: var(--color-white);
+}
+
+.main__turnover_gray {
+    color: var(--color-gray);
+}
+
+.main__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 115px;
+}
+
+.main__block-requirements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 75px;
+}
+
+.turnover {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 22px; 
+    justify-self: end; 
+}
+.selected {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+@media (max-width: 576px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+  }
